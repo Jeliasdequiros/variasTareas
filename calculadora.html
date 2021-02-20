@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <div class="carcasa">
+
+        <form id="formulario1" name="">
+            <label class="num1" for="">Número 1</label>
+            <input type="number" class="numero1" id="numero1" placeholder= "Introduce un número">
+
+            <!--Creamos boton reset-->
+            <button onclick="reset()">RESET</button>
+            <br>
+            <br>
+            
+            <label class="num2" for="">Número 2</label>
+            <input type="number" class="numero2" id="numero2" autofocus placeholder= "Introduce un número">
+            
+            <br>
+            <br>
+
+            <!--Creamos botones operaciones y al clickar en ellos, se llama a la función asignada-->
+            <section class="botones">
+                <button  type="button" onclick="sumar()">+</button>
+                <button  type="button" onclick="restar()">-</button>
+                <button  type="button" onclick="multiplicar()">*</button>
+                <button  type="button" onclick="dividir()">/</button>
+            </section>
+            
+            <h3>El resultado es: <spam class=resultado id="resultado"></spam>
+            </h3>
+            
+        </form>
+
+    </div>
+
+    <script src="calculadora.js"></script>
+</body>
+</html>

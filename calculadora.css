@@ -1,0 +1,43 @@
+body{
+    height:40vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color: rgb(207, 199, 199);
+    font-size: 15px;
+    font-family: sans-serif
+}
+
+.carcasa{
+    background-color:rgb(209, 40, 40);
+    height: 280px;
+    width:300px;
+    border: solid 3px;
+    padding:10px;
+}
+
+.botones{
+    display:flex;
+    justify-content:center;
+}
+
+.num1{
+    color:white;
+    padding: 5px;
+}
+
+.num2{
+    color:white;
+    padding: 5px;
+}
+
+h3{
+    padding:10px;
+}
+
+.resultado{
+    color:white;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: bold;
+}
