@@ -3,19 +3,19 @@ body{
     flex-direction:column;
     align-items:center;
     justify-content:center;
-    
+    background-color: grey;
     font-family: sans-serif;
     color:white;
 }
 
 .cuadro{
-    background-color: black;
+    background-color: rgb(71, 11, 212);
     width:500px;
     text-align:center;
     margin: 0 auto;
     padding:20px;
+    border-radius:150px;
 }
-
 
 
 .reloj, .cronometro{
@@ -31,5 +31,6 @@ body{
 a{
     margin: 20px;
     text-decoration: none;
-    color:  red;
+    font-weight: bold;
 }
+

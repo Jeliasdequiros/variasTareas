@@ -42,7 +42,7 @@ function start(){
 
 function stop(){
     clearInterval(cronometro)
-    document.getElementById('resultados').innerHTML += 'PAUSA' + horaActual.getHours()+':'+horaActual.getMinutes()+':'+horaActual.getSeconds()+'<br/>'
+    document.getElementById('resultados').innerHTML += 'PAUSA:' + horaActual.getHours()+':'+horaActual.getMinutes()+':'+horaActual.getSeconds()+'<br/>'
 }
 
 // Limpiamos los campos poniéndolos a cero. Aquí usamos la variable fecha que necesitamos para trabajar con el cronómetro
@@ -67,11 +67,3 @@ function cronometroOn(){
     
 
 
-
-
-
-
-// function rellenar(numero){
-//     // return (numero<10) ? "0"+numero: numero
-//     // if (numero<10) return 0+numero; else return numero
-// }
