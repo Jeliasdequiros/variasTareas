@@ -1,0 +1,28 @@
+body{
+    height: 100vh;
+    background-color: rgb(209, 117, 117);
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    border:solid 3px;
+}
+
+a {
+    display:flex;
+    justify-content:space-between;
+    
+    /* -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button; */
+
+    text-decoration: none;
+    color: initial;
+    margin:20px;
+    color:white;
+    
+}

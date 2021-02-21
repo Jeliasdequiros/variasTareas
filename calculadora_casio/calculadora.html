@@ -9,10 +9,11 @@
 </head>
 <body>
     <div class="carcasa">
+        <h4>CALCULADORA CASIO </h4>
 
         <form id="formulario1" name="">
             <label class="num1" for="">Número 1</label>
-            <input type="number" class="numero1" id="numero1" placeholder= "Introduce un número">
+            <input type="number" class="numero1" id="numero1" autofocus placeholder= "Introduce un número">
 
             <!--Creamos boton reset-->
             <button onclick="reset()">RESET</button>
@@ -20,7 +21,7 @@
             <br>
             
             <label class="num2" for="">Número 2</label>
-            <input type="number" class="numero2" id="numero2" autofocus placeholder= "Introduce un número">
+            <input type="number" class="numero2" id="numero2" placeholder= "Introduce un número">
             
             <br>
             <br>
@@ -33,13 +34,13 @@
                 <button  type="button" onclick="dividir()">/</button>
             </section>
             
-            <h3>El resultado es: <spam class=resultado id="resultado"></spam>
-            </h3>
+            <h3 class="resultado" id="resultado"></h3>
+
             
         </form>
-
+    
     </div>
-
+    <a href="/index.html">Página de Inicio</a>
     <script src="calculadora.js"></script>
 </body>
 </html>
